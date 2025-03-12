@@ -1,0 +1,67 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Helendale Tech Solutions'
+theme = 'hello-friend-ng'
+
+[params]
+  contentTypeName = "posts"
+  hideReadMore = false
+  showReadingTime = false
+  framed = true
+  paginate = false
+  lastModDisplay = true
+  defaultTheme = "light"
+  enableThemeToggle = true
+  homeSubtitle = "Serving Silver Lakes Community"
+
+[params.author]
+  name = "Helendale Tech"
+
+[params.logo]
+  logoMark     = ">"
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
+  # Set true to remove the logo cursor entirely.
+  # logoCursorDisabled = false
+  # Set to a valid CSS color to change the cursor in the logo.
+  logoCursorColor    = "#00cc00"
+  # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+  # logoCursorAnimate  = "2s"
+  # Append the current url pathname to logoText 
+  # logoCursorPathname = true
+
+[languages]
+  [languages.en]
+    title = "Helendale Tech Solutions"
+    
+    [languages.en.params]
+      subtitle = "Serving the Silver Lakes Community"
+      dateFormatList = "2006-01-02"
+      readOtherPosts = "Read other posts"
+      writtenBy = "Written by"
+      newerPosts = "Newer posts"
+      dateFormatSingle = "2006-01-02"
+      menuMore = "Show more"
+      keywords = ""
+      copyright = ""
+      readMore = "Read more"
+      olderPosts = "Older posts"
+      minuteReadingTime = "min read"
+
+    [languages.en.params.logo]
+      logoText = "Helendale Tech Solutions"
+      logoHomeLink = "/about"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
