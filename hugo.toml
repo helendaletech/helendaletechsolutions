@@ -50,7 +50,7 @@ theme = 'hello-friend-ng'
 
     [languages.en.params.logo]
       logoText = "Helendale Tech Solutions"
-      logoHomeLink = "/about"
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
