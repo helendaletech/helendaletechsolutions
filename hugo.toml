@@ -1,4 +1,4 @@
-baseURL = 'https://helendaletechsolutions.com/about/'
+baseURL = 'https://helendaletechsolutions.com/'
 languageCode = 'en-us'
 title = 'Helendale Tech Solutions'
 theme = 'hello-friend-ng'
