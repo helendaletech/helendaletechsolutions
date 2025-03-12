@@ -1,4 +1,4 @@
-baseURL = 'https://helendaletech.github.io/helendaletechsolutions/'
+baseURL = 'https://helendaletech.github.io/helendaletechsolutions/about/'
 languageCode = 'en-us'
 title = 'Helendale Tech Solutions'
 theme = 'hello-friend-ng'
@@ -20,7 +20,7 @@ theme = 'hello-friend-ng'
 [params.logo]
   logoMark     = ">"
   logoText     = "$ cd /home/"
-  logoHomeLink = "/"
+  logoHomeLink = "/helendaletechsolutions/about/"
   # Set true to remove the logo cursor entirely.
   # logoCursorDisabled = false
   # Set to a valid CSS color to change the cursor in the logo.
@@ -50,7 +50,7 @@ theme = 'hello-friend-ng'
 
     [languages.en.params.logo]
       logoText = "Helendale Tech Solutions"
-      logoHomeLink = "/"
+      logoHomeLink = "/helendaletechsolutions/about/"
     # or
     #
     # path = "/img/your-example-logo.svg"
