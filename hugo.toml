@@ -1,4 +1,4 @@
-baseURL = 'https://helendaletechsolutions.com/about'
+baseURL = 'https://helendaletechsolutions.com/about/'
 languageCode = 'en-us'
 title = 'Helendale Tech Solutions'
 theme = 'hello-friend-ng'
@@ -65,3 +65,6 @@ theme = 'hello-friend-ng'
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+
+[services.googleAnalytics]
+  ID = 'G-6F9F3X3W36'
