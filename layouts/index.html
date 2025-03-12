@@ -1,0 +1,29 @@
+{{ define "body" }}
+<body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div>
+        {{ if .Site.Params.Portrait.Path }}
+        <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+        {{ end }}
+        <main class="post">
+        {{ $post := site.GetPage "about" }}
+
+            <figure class="post-cover">
+                <img src="{{ $post.Params.Cover | absURL }}" alt="{{ .Title }}" />
+
+                {{ if .Params.CoverCaption }}
+                <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                {{ end }}
+            </figure>
+
+        <div class="post-content">
+            {{ $post.Content }}
+        </div>
+        </main>
+
+    </div>
+</main>
+{{ end }}
